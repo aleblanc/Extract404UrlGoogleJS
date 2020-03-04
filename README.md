@@ -8,13 +8,13 @@ site:www.mysite.com
 
 2. execute the script in the firefox console "extractor.js"
 
-or you can direct include the JS like this :
+or you can direct include the JS like this in the console :
 
-’’’
+```
 var script = document.createElement('script');
 script.type = 'text/javascript';
 script.src = 'https://cdn.jsdelivr.net/gh/aleblanc/Extract404UrlGoogleJS@master/extractor.js';
 document.head.appendChild(script);
-’’’
+```
 
 Inspired by https://www.chrisains.com/seo-tools/extract-urls-from-web-serps/
