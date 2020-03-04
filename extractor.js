@@ -1,4 +1,4 @@
-javascript:(function(){
+
 output='<html><head><title>SEO 404 Extraction Tool</title><style type=\'text/css\'>body,table{font-family:Tahoma,Verdana,Segoe,sans-serif;font-size:11px;color:#000}h1,h2,th{color:#405850}th{text-align:left}h2{font-size:11px;margin-bottom:3px}.status_404{colore:red;}</style></head><body>';
 
 output+="<h1>SEO SERP Extraction Tool</h1>";
@@ -83,5 +83,3 @@ with(window.open()){document.write(output);document.close();}
 }
 
 
-
-})();
